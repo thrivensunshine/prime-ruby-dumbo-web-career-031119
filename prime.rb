@@ -1,4 +1,4 @@
-def test2(num)
+def prime2(num)
 count = 1
 arr =[]
 arr2 =[]

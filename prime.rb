@@ -6,7 +6,7 @@ while num >= count
 if(num % count == 0)
 arr << 1
 count += 1
-break
+
 end
 end
 

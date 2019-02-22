@@ -1,4 +1,4 @@
-def test1(num)
+def prime?(num)
 arr = []
 count = 1
 while num >= count 

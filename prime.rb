@@ -1,4 +1,4 @@
-def prime2(num)
+def prime?(num)
 count = 1
 arr =[]
 arr2 =[]

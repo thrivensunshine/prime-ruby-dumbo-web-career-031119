@@ -1,19 +1,27 @@
-def test1(num)
-arr = []
+def test2(num)
 count = 1
-while num >= count 
+arr =[]
+arr2 =[]
 
-if(num % count == 0)
-arr << 1
+while num >= count
+arr << count
 count += 1
+end
+# puts arr
 
+arr.each do |i|
+if(num % i == 0)
+ arr2 << i
+puts "num2 #{arr2}"
 end
 end
 
-if(arr.length == 2)
+if arr2.length == 2
 return true
 
 else
 return false
+
 end
 end
+ 

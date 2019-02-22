@@ -12,7 +12,7 @@ end
 arr.each do |i|
 if(num % i == 0)
  arr2 << i
-puts "num2 #{arr2}"
+puts "array2  #{arr2}"
 end
 end
 
